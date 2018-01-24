@@ -656,7 +656,7 @@
         <dia:composite type="text">
           <dia:attribute name="string">
             <dia:string>#speed: 50 km/h
-rev: 7650
+rev: 7650 rpm
 gear: D
 
 speed limit: 60
