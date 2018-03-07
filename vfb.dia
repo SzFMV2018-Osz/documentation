@@ -593,12 +593,12 @@ display#</dia:string>
         <dia:point val="28,2"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="25.0012,1.57125;30.9988,2.42875"/>
+        <dia:rectangle val="25.3275,1.53909;30.6939,2.46091"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Hívási sorrend#</dia:string>
+            <dia:string>#Calling order#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="80" name="Helvetica-Bold"/>
@@ -607,7 +607,7 @@ display#</dia:string>
             <dia:real val="0.91722218692302704"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="28,2.25375"/>
+            <dia:point val="28,2.24303"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000"/>
