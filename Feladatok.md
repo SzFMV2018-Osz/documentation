@@ -4,4 +4,4 @@
 
 Alább pedig a user story-k függőségi gráfra látható, sprintenként színezve. Az „Autó pozíció” nem user story, csupán az átláthatóság (kevesebb nyíl) érdekében lett berajzolva.
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/dependencies.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/dependencies.png)

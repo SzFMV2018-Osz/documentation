@@ -15,7 +15,7 @@ A fordulókör sugarának kiszámításához a fönti linkből származó képle
 
 > atan(wheelbase / (turning circle - car width)) = angle
 
-A [`car_2_white.png`](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/resources/car_2_white.png) esetében a szélesség kb. 90px, a tengelytáv kb. 130px-nek tekinthető. Tegyük fel, hogy maximum 60°-ban kormányozható, ekkor a fordulókör sugara:
+A [`car_2_white.png`](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/resources/car_2_white.png) esetében a szélesség kb. 90px, a tengelytáv kb. 130px-nek tekinthető. Tegyük fel, hogy maximum 60°-ban kormányozható, ekkor a fordulókör sugara:
 
 > - atan(130px / (r - 90px)) = 60°
 >
@@ -28,9 +28,9 @@ A [`car_2_white.png`](https://raw.githubusercontent.com/SzFMV2018-Osz/documentat
 
 ## Szenzorok (2. sprint)
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/camera.png)
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/radar.png)
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/ultrasonic.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/camera.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/radar.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/ultrasonic.png)
 
 [Driver Assistance Systems, an introduction to Adaptive Cruise Control](http://www.eetimes.com/document.asp?doc_id=1272754)
 

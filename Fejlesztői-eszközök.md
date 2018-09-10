@@ -9,7 +9,7 @@ A fejlesztői környezetek rendelkeznek Git integrációval, de a parancssoron k
 
 ### Tesztlefedettség
 
-[Tesztlefedettség támogatás a fejlesztői eszközökben](https://github.com/SzFMV2018-Osz/documentation/Tesztlefedetts%C3%A9g).
+[Tesztlefedettség támogatás a fejlesztői eszközökben](https://github.com/SzFMV2018-Osz/handout/Tesztlefedetts%C3%A9g).
 
 ### Kódformázás
 
@@ -25,14 +25,14 @@ IDEA beállításai alapértelmezetten elvileg megfelelnek az elvárásoknak, í
 
 File > Settings > Other Settings > Checkstyle > Configuration File panelen _Add_ és a projekt gyökérben megtalálható `checkstyle.xml` fájlt kell neki megadni (és elnevezni valamiként, az alábbi képen `szfmv`). Innentől a fejlesztői környezeten belül elérhető a kódminőség-ellenőrzés *valós időben*, warning-okkal jelzi a találatokat.
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/idea_checkstyle_plugin_settings.png)
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/idea_checkstyle_findings.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/idea_checkstyle_plugin_settings.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/idea_checkstyle_findings.png)
 
-Bővebben [itt](https://github.com/SzFMV2018-Osz/documentation/K%C3%B3dform%C3%A1z%C3%A1s)!
+Bővebben [itt](https://github.com/SzFMV2018-Osz/handout/K%C3%B3dform%C3%A1z%C3%A1s)!
 
 ### Logolás
 
-[Logger használata](https://github.com/SzFMV2018-Osz/documentation/Logol%C3%A1s)
+[Logger használata](https://github.com/SzFMV2018-Osz/handout/Logol%C3%A1s)
 
 ### Maven és a proxy
 

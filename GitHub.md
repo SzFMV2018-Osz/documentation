@@ -7,7 +7,7 @@ GitHub használatához segítség:
 
 ***
 
-Minden hallgató tagja lesz a [SzFMV2018-Osz](https://github.com/SzFMV2018-Osz) szervezetnek (`Organization`), és egy-egy csapatnak (Team1, ..., Team4). Minden csapat külön issue board-dal rendelkezik (`Projects`), ezen kell vezetni a feladatok (`issue`) megoldását (részletében lásd [Munkafolyamat](https://github.com/SzFMV2018-Osz/documentation/Munkafolyamat)).
+Minden hallgató tagja lesz a [SzFMV2018-Osz](https://github.com/SzFMV2018-Osz) szervezetnek (`Organization`), és egy-egy csapatnak (Team1, ..., Team4). Minden csapat külön issue board-dal rendelkezik (`Projects`), ezen kell vezetni a feladatok (`issue`) megoldását (részletében lásd [Munkafolyamat](https://github.com/SzFMV2018-Osz/handout/Munkafolyamat)).
 
 Issue-t nem csak feladatra lehet felvenni, akár kérdésre is, probléma megvitatására is. Ez esetben célszerű megjelölni a `Question` címkével. 2017 őszétől csapat (`team`) szintű fórummal is rendelkezik a GitHub. A szervezeten belül a csapatok hierarchikus struktúrában vannak. A gyökér az [Everyone](https://github.com/orgs/SzFMV2018-Osz/teams/everyone), az összes többi csapat ennek tagja. Az Everyone falára (`discussions`) írt üzeneteket mindenki megkapja. Ezen keresztül fogunk a félév során kurzus szintű közleményeket kiadni, de bárki használhatja kommunikációra. Ugyanilyen üzenőfallal rendelkezik az összes többi csapat is, amelyre szintén bárki írhat. Ha például a Team2-ből szeretné elérni valaki a Team3-at, akkor mindösszesen annyi a dolga, hogy ír a Team3 üzenőfalára. A [Staff](https://github.com/orgs/SzFMV2018-Osz/teams/staff) nevű team-en keresztül az oktatókat lehet elérni ugyanilyen módon.
 
@@ -33,7 +33,7 @@ def get_random_number():
 
 Előfordulhat, hogy a git nem tudja feloldani a változtatásokat és emberi beavatkozást igényel a merge-elés. Például létrehoztad a feature branchet a csapat branch adott állapotáról, ám az időközben módosult és a módosítás ugyanazon fájl ugyanazon részét érintette. A GitHubon ez az alábbihoz hasonlóan néz ki:
 
-![PR conflict](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/conflict.png)
+![PR conflict](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/conflict.png)
 
 Ezen belül is egyszerűbb esetekben a GH felajánlja a webes szerkesztőjét, de összetettebb esetekben ki kell checkolni az adott ágat és „kézzel” (editorral) feloldani helyzetet.
 
@@ -43,12 +43,12 @@ Ezen belül is egyszerűbb esetekben a GH felajánlja a webes szerkesztőjét, d
 
 A képen az  létható, hogy Hegedűs kolléga a `master` azon állapotában írta be a nevét, amikor a 64. sor volt az utolsó. Időközben egyéb PR-eket is elfogadtam így a git nem tudja, hogy a 68-73. sorokat kell megtartani vagy a 66.-at (ennek szintaktikáját látni a „kacsacsőrökkel”).
 
-![GH web editor](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/conflict_web_editor.png)
+![GH web editor](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/conflict_web_editor.png)
 
  Jelen esetben persze mindkettő kell, így kézzel átrendezem, majd ezt megjelölöm feloldottnak:
 
-![GH web editor](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/conflict_web_editor2.png)
-![conflict resolved](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/conflict_mark_resolved.png)
+![GH web editor](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/conflict_web_editor2.png)
+![conflict resolved](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/conflict_mark_resolved.png)
 
 **További tippek a témában**: https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git
 
@@ -64,23 +64,23 @@ Ha valaki parancssorból intézi, akkor a beállított editorral nyitja meg (vi,
 
 ### Review
 
-![review required](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/review_required.png)
+![review required](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/review_required.png)
 
 Erre az „add your review” szolgál. Fájlonként át lehet nézni minden módosítást, soronként kommentelni, illetve egy globális véleményt írni a PR-ről (+1, -1, -2). A comment opció semleges, nem elfogadás, de nem is elutasítás. A másik két opció elég egyértelmű. Ha változtatást kérsz, akkor addig amíg a PR forrásbranche nem módosul nem lehet újra próbálkozni a PR elfogadásával.
 
-![review](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/review_approved.png)
+![review](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/review_approved.png)
 
 Ha minden rendben, akkor el lehet fogadni a PR-et:
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/mergable.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/mergable.png)
 
 Elfogadás után így néz ki:
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/merged.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/merged.png)
 
 Ezen a ponton a feature branch nem szükséges továbbá, törölhető. Persze egy ideig még visszaállítható:
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/restore_branch.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/restore_branch.png)
 
 
 
@@ -88,7 +88,7 @@ Ezen a ponton a feature branch nem szükséges továbbá, törölhető. Persze e
 
 Az „[A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)” című posztban lehet olvasni egy szélesebb körben kedvelt modellről. A félév során használt többé-kevésbé ehhez hasonló.
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/branching.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/branching.png)
 
 A `master` branch védett, nem lehet bele commitolni. Nem egy, hanem több (4) fejlesztői branch-ünk van (`team1`, ..., `team4`), ezek szintén védettek. Minden feladathoz létre kell hozni egy *feature branch-et*, azon lehet dolgozni. Ha a feladat elkészült, akkor a csapat branchbe lehet *merge-eni*. Ami mivel védett [*pull request-et*](https://help.github.com/articles/about-pull-requests/) (továbbiakban PR) küldeni. A PR lehetőséget biztosít ellenőrzésekre és [review-zásra](https://help.github.com/articles/about-pull-request-reviews/). Csak a lefordítható, teszteknek megfelelő, ütközés (conflict) mentes PR kerülhet elfogadásra!
 

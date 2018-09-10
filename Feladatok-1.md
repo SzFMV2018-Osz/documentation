@@ -19,7 +19,7 @@
 
 * A kimenetként előállított objektumok lista akár lehet egy XmlObject lista, ahol az objektumok típusától függetlenül minden ilyenekben van tárolva, és majd a világ kialakításáért felelős csapat létrehozza belőlük a hierarchikus objektummodellt.
 * Teljesen járható út, hogy a modell, az XML-ben található koordinátarendszerrel dolgozik, ebből adódóan minden számolás abban történik, csak a megjelenítés skálázza át. Vagy már beolvasáskor megtörténik egy koordinátatranszformáció és onnantól kezdve minden azon történik. Utóbbi hátránya, hogy a megjelenítéstől (felbontás szinten) teszi függővé a szimulációt.
-* Vonatkozó [wikioldal](https://github.com/SzFMV2018-Osz/documentation/A-virtu%C3%A1lis-vil%C3%A1g)
+* Vonatkozó [wikioldal](https://github.com/SzFMV2018-Osz/handout/A-virtu%C3%A1lis-vil%C3%A1g)
 
 ## Vizualizáció
 
@@ -38,7 +38,7 @@
 
 * Teljesen járható út, hogy a modell, az XML-ben található koordináta-rendszerrel dolgozik, ebből adódóan minden számolás abban történik, csak a megjelenítés számolja át.
 * A programlaknak az alábbi módon kell kinéznie. A kezdeti kód ezt a felosztást már támogatja, tartalmaz két JPanel-t, ebből a `CourseDisplay`re kell a világ objektumait kirajzolni.
-    ![gui_plan](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/gui_plan.png)
+    ![gui_plan](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/gui_plan.png)
 * Az IntelliJ IDEA GUI Designer-e *nem* használható!
 
 
@@ -93,7 +93,7 @@
 * A fordulatszám és a sebesség megjelenése „analóg óraként” történjen, de nem kell újra feltalálni a kereket.
 * a funkciókapcsolók értelemszerűen jelenleg még nem kapcsolnak majd semmit, de váltsanak ki egy eseményt, amelyről log bejegyzés szülessen. Ez példaként szolgál majd a későbbiekben a funkciókat fejlesztő csapatoknak, hogy önállóan integrálhassák a munkájukat.
 * A programlaknak az alábbi módon kell kinéznie. A kezdeti kód ezt a felosztást már támogatja, tartalmaz két JPanel-t, ebből a `Dashboard`re kell a világ objektumait kirajzolni.
-    ![gui_plan](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/gui_plan.png)
+    ![gui_plan](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/gui_plan.png)
 * Az IntelliJ IDEA GUI Designer-e *nem* használható!
 
 
@@ -112,7 +112,7 @@
 
 ### Megjegyzések
 
-* vonatkozó [wiki oldal](https://github.com/SzFMV2018-Osz/documentation/Fizika)
+* vonatkozó [wiki oldal](https://github.com/SzFMV2018-Osz/handout/Fizika)
 
 ## Kormányzás
 
@@ -130,4 +130,4 @@
 ### Megjegyzések
 
 * A pozíciófrissítést egy folyamatos mozgáshoz kell megoldani, a megjelenítés 24 FPS-sel frissül, ehhez igazodva az inputokból folyamatosan kell számítani a következő időpillanatra vonatkozó pozíciókat
-* vonatkozó [wiki oldal](https://github.com/SzFMV2018-Osz/documentation/Fizika)
+* vonatkozó [wiki oldal](https://github.com/SzFMV2018-Osz/handout/Fizika)

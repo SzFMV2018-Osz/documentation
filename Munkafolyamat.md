@@ -1,10 +1,10 @@
 A munka kultúráról egy remek videót tett közzé a Spotify, [megtekinthető itt](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/).
 
-A munkafolyamat alapvetően egyéni munkára van kitalálva, de legkevésbé sem tilos a [pair programming](https://en.wikipedia.org/wiki/Pair_programming) sem. Társszerzők megjelöléséről [itt lehet olvasni](https://github.com/SzFMV2018-Osz/documentation/Git-anyagok#t%C3%A1rsszerz%C5%91k).
+A munkafolyamat alapvetően egyéni munkára van kitalálva, de legkevésbé sem tilos a [pair programming](https://en.wikipedia.org/wiki/Pair_programming) sem. Társszerzők megjelöléséről [itt lehet olvasni](https://github.com/SzFMV2018-Osz/handout/Git-anyagok#t%C3%A1rsszerz%C5%91k).
 
 A konkrét feladatmegoldáshoz az alábbi folyamat az elvárt:
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/proc1.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/proc1.png)
 
 * User Story:
     * high level description of sprint goal by customer not complete! Never detailed enough!
@@ -18,13 +18,13 @@ A konkrét feladatmegoldáshoz az alábbi folyamat az elvárt:
     * add Definition of Done list to issue
     * add project (there is one for every team) to issue
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/proc2.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/proc2.png)
 
 * Dod: Definition of Done
 
 ## Code Review in details
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/proc3.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/proc3.png)
 
 * Clean Code:
     * no magic numbers

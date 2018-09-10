@@ -9,7 +9,7 @@ Alább néhány, az interneten az ismert kulcsszavak alapján könnyen (legaláb
     - [Formatting](http://www.itiseezee.com/?p=131)
 - Verziókövetés
     - [Git könyv](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-    - gyakorlati oldalról lást [Git anyagok](https://github.com/SzFMV2018-Osz/documentation/Git-anyagok) szekció
+    - gyakorlati oldalról lást [Git anyagok](https://github.com/SzFMV2018-Osz/handout/Git-anyagok) szekció
 - [Code review](https://smartbear.com/learn/code-review/what-is-code-review/)
 - [Scrum](http://www.scrumhub.com/scrum-guide/)
     - [PDF verzió](http://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-us.pdf)

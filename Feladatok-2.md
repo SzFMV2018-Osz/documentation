@@ -18,7 +18,7 @@ Minden szenzor látómezeje egy háromszög. Tetszőlegesen definiálható háro
 
 Park pilot alapjául szolgáló Ultrasonic Sensor array szimulációjának implementálása. 
 
-* Input: világmodell, a [referencia architektúra](https://github.com/SzFMV2018-Osz/documentation/Referencia-architekt%C3%BAra) alapján közvetlen interfész, ezen dolgozik a **Team 1**
+* Input: világmodell, a [referencia architektúra](https://github.com/SzFMV2018-Osz/handout/Referencia-architekt%C3%BAra) alapján közvetlen interfész, ezen dolgozik a **Team 1**
 * Assignee: **Team 4**
 
 ### Definition of Done
@@ -31,14 +31,14 @@ Park pilot alapjául szolgáló Ultrasonic Sensor array szimulációjának imple
 
 ### Megjegyzések
 
-* A  [wiki/Fizika](https://github.com/SzFMV2018-Osz/documentation/Fizika) cikkében látotthoz hasonlóan meghatározni a „háromszögeket” (elhelyezni az autón).
+* A  [wiki/Fizika](https://github.com/SzFMV2018-Osz/handout/Fizika) cikkében látotthoz hasonlóan meghatározni a „háromszögeket” (elhelyezni az autón).
 * A háromszöget kirajzolása lehet sima vonal rajzolással
 
 ## Radar szenzor
 
 Adaptív sebességtartó, automata vészfékező alapjául szolgáló radar szenzor implementációja
 
-* Input: világmodell, a [referencia architektúra](https://github.com/SzFMV2018-Osz/documentation/Referencia-architekt%C3%BAra) alapján közvetlen interfész, ezen dolgozik a **Team 1**
+* Input: világmodell, a [referencia architektúra](https://github.com/SzFMV2018-Osz/handout/Referencia-architekt%C3%BAra) alapján közvetlen interfész, ezen dolgozik a **Team 1**
 * Assignee: **Team 3**
 
 ### Definition of Done
@@ -52,7 +52,7 @@ Adaptív sebességtartó, automata vészfékező alapjául szolgáló radar szen
 
 ### Megjegyzések
 
-* A  [wiki/Fizika](https://github.com/SzFMV2018-Osz/documentation/Fizika) cikkében látotthoz hasonlóan meghatározni a „háromszöget” (elhelyezni az autón).
+* A  [wiki/Fizika](https://github.com/SzFMV2018-Osz/handout/Fizika) cikkében látotthoz hasonlóan meghatározni a „háromszöget” (elhelyezni az autón).
 * A háromszöget kirajzolása lehet sima vonal rajzolással
 * A vészfékezőnek majd ki kell tudnia számolni, hogy az akadály akkor is útban lesz-e még mire az autó odaér, ehhez szükséges az útban levő objektum távolsága és pozíciója (relatívan az autóhoz), ez minden ciklusban lefutva előállítja az objektum pl. gyalogos mozgásvektorát
     * ennek egy fa esetében is működnie kell, csak az nem mozog, mert nem Középföldén vagyunk
@@ -63,7 +63,7 @@ Adaptív sebességtartó, automata vészfékező alapjául szolgáló radar szen
 
 Sávtartó automatika és táblafelismerő alapjául szolgáló kamera szenzor implementációja. A Sávtartó automatika a nagyobb feladat, ugyanis meg kell tudni határozni a sávot. Az autó előtt levő pályaelemekből kiszámítani, hogy hol vannak a sávot meghatározó vonalak. A sávtartó automatikának arra lesz majd szüksége, hogy az autó közelít-e a sávját meghatározó felfestésekhez.
 
-* Input: világmodell, a [referencia architektúra](https://github.com/SzFMV2018-Osz/documentation/Referencia-architekt%C3%BAra) alapján közvetlen interfész, ezen dolgozik a **Team 1**
+* Input: világmodell, a [referencia architektúra](https://github.com/SzFMV2018-Osz/handout/Referencia-architekt%C3%BAra) alapján közvetlen interfész, ezen dolgozik a **Team 1**
 * Assignee: **Team 2**
 
 ### Definition of Done
@@ -78,14 +78,14 @@ Sávtartó automatika és táblafelismerő alapjául szolgáló kamera szenzor i
 
 ### Megjegyzés
 
-* A  [wiki/Fizika](https://github.com/SzFMV2018-Osz/documentation/Fizika) cikkében látotthoz hasonlóan meghatározni a „háromszöget” (elhelyezni az autón).
+* A  [wiki/Fizika](https://github.com/SzFMV2018-Osz/handout/Fizika) cikkében látotthoz hasonlóan meghatározni a „háromszöget” (elhelyezni az autón).
 * A háromszöget kirajzolása lehet sima vonal rajzolással
 * A kamerának előre kell látnia, ha az út kanyarodni fog, azt is, hogy merre fog kanyarodni és erről a sávtartó automatikának használható információt kellene előállítani
 * A valóságban kiszámolják a pálya görbét, ezt itt oly módon lehetne megoldani, hogy a kanyar út elemekből (mint képekből) ki kell számolni az útelem sugarát, pontosabban sugarait (a 3 felfestés esetében egyet-egyet, ebből kettő határozza meg az autó sávját); az ábrán piros vonalak szemléltetik
 * Továbbá figyelik, hogy az autó hol lesz a következő időpillanatban (pl. másodperc múlva). Az ábrán a kék nyilak szemléltetik és ha ezek metszik a görbéket, akkor a sávtartó automatikának közbe kell avatkoznia (az ábra szerint balra kell kormányozni)
     * Itt ez nem feladat, de a ráépülő modul megértése miatt itt is leírom. A sáv görbék meghatározása feladat
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/camera_lanekeeping.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/camera_lanekeeping.png)
 
 
 ## Ütközés detekció és mozgásállapot-változás szimuláció
