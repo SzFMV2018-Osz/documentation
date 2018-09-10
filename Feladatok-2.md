@@ -85,7 +85,7 @@ Sávtartó automatika és táblafelismerő alapjául szolgáló kamera szenzor i
 * Továbbá figyelik, hogy az autó hol lesz a következő időpillanatban (pl. másodperc múlva). Az ábrán a kék nyilak szemléltetik és ha ezek metszik a görbéket, akkor a sávtartó automatikának közbe kell avatkoznia (az ábra szerint balra kell kormányozni)
     * Itt ez nem feladat, de a ráépülő modul megértése miatt itt is leírom. A sáv görbék meghatározása feladat
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/camera_lanekeeping.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/camera_lanekeeping.png)
 
 
 ## Ütközés detekció és mozgásállapot-változás szimuláció

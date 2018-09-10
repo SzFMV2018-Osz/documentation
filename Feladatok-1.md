@@ -38,7 +38,7 @@
 
 * Teljesen járható út, hogy a modell, az XML-ben található koordináta-rendszerrel dolgozik, ebből adódóan minden számolás abban történik, csak a megjelenítés számolja át.
 * A programlaknak az alábbi módon kell kinéznie. A kezdeti kód ezt a felosztást már támogatja, tartalmaz két JPanel-t, ebből a `CourseDisplay`re kell a világ objektumait kirajzolni.
-    ![gui_plan](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/gui_plan.png)
+    ![gui_plan](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/gui_plan.png)
 * Az IntelliJ IDEA GUI Designer-e *nem* használható!
 
 
@@ -93,7 +93,7 @@
 * A fordulatszám és a sebesség megjelenése „analóg óraként” történjen, de nem kell újra feltalálni a kereket.
 * a funkciókapcsolók értelemszerűen jelenleg még nem kapcsolnak majd semmit, de váltsanak ki egy eseményt, amelyről log bejegyzés szülessen. Ez példaként szolgál majd a későbbiekben a funkciókat fejlesztő csapatoknak, hogy önállóan integrálhassák a munkájukat.
 * A programlaknak az alábbi módon kell kinéznie. A kezdeti kód ezt a felosztást már támogatja, tartalmaz két JPanel-t, ebből a `Dashboard`re kell a világ objektumait kirajzolni.
-    ![gui_plan](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/gui_plan.png)
+    ![gui_plan](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/gui_plan.png)
 * Az IntelliJ IDEA GUI Designer-e *nem* használható!
 
 

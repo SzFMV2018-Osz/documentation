@@ -20,9 +20,9 @@
 * a szabad helyhez egy referenciapontot kell (érdemes) társítani, pl. a helyet leíró téglalap bal felső pontja (ábrán így van) és az autó középpontjával és ezzel a ponttal (ebből számolható a távolság) valamint a hely dimenzióival kielégítően jellemezve van a a parkoló hely.
     * Ezt pl. egy ParkingPlace osztály elemeként ki kell tenni a buszra packet-tel. Ennek a leíró osztálynak a felépítéséről tájékoztatni kell a parkolásért felelős csapatot..
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/find_parking_place.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/find_parking_place.png)
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/parking_place_found.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/parking_place_found.png)
 
 ## Automata parkolás
 
@@ -48,9 +48,9 @@
 * A programozott vezérlést a buszon keresztül kapott szabad helyet leíró adatok függvényében kell elindítani
     * ha szükséges az autóval tolatni is kell
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/parking_place_found.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/parking_place_found.png)
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/parking.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/parking.png)
 
 ## Sávtartó automatika
 
@@ -69,7 +69,7 @@
     * annak, hogy mennyivel előre kell tekinteni valóságos megvalósítása elvileg sebességfüggő, elfogadható, ha ez az érték konstans pl. 1 vagy inkább 2 egocar hossz mivel be is kell tudni avatkozni
 * Attól függően kell a kormányállást befolyásolni, hogy mely irányból közelítjük a sávot.
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/camera_lanekeeping.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/camera_lanekeeping.png)
 
 ## Adaptív tempomat
 
@@ -94,7 +94,7 @@ Adaptív tempomat funkció megvalósítása - a kiválasztott célobjektum (aut�
     * de figyelni kell, hogy a tényleges billentyűtől érkező inputok felülírják a funkciót
     * **team5** számára feladatot ad!!!
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/acc.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/acc.png)
 
 
 ## Vészfékező
@@ -122,7 +122,7 @@ Automata vészfékező rendszer megvalósítása, maximum 9 m/s^2 lassulással
     * de figyelni kell, hogy a tényleges billentyűtől érkező inputok felülírják a funkciót
     * **team5** számára feladatot ad!!!
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/radar_aeb.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/radar_aeb.png)
 
 ## Táblafelismerő rendszer + tolatóradar
 
@@ -156,4 +156,4 @@ A funkció lényegét bemutatja [ez a videó](https://www.youtube.com/watch?v=RF
     * nagyon közel van akadály (0.4m-en belül)
 * Valami ehhez hasonlóként lehet elképzelni: https://www.youtube.com/watch?v=qZkCoDChS4A
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/reverse_radar_system.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/reverse_radar_system.png)

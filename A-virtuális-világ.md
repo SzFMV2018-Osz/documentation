@@ -1,6 +1,6 @@
 Az autónak egy virtuális tesztpályán kell végigmennie, amelyhez modellezni a világot. Két teszt pályát biztosítunk, egy egyszerűbbet és egy nagyobbat, bonyolultabbat. Alább látható az egyszerűbb.
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/test_world.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/test_world.png)
 
 A fenti világ elemekből épül föl, amelyek között vannak egyenes útszakaszok, kanyarok (pl. 45° és 90°), T elágazás, gyalogos átkelő, közúti táblák, parkolók és fák. Mindezt [egy XML írja le](https://github.com/SzFMV2018-Osz/documentation/blob/master/resources/test_world.xml).
 
@@ -28,20 +28,20 @@ Egy-egy objektum leírása a következőképpen néz ki:
 
 ## Az út elemek viszonyítási pontjai
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/90right.png) ![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/90left.png) 
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/90right.png) ![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/90left.png) 
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/45right.png) ![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/45left.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/45right.png) ![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/45left.png)
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/6right.png) ![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/6left.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/6right.png) ![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/6left.png)
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/tjunctionright.png)
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/tjunctionleft.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/tjunctionright.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/tjunctionleft.png)
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/straight.png)
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/rotary.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/straight.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/rotary.png)
 
-![2_crossroad_1](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/2_crossroad_1.png)
-![2_crossroad_2](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/2_crossroad_2.png)
+![2_crossroad_1](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/2_crossroad_1.png)
+![2_crossroad_2](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/2_crossroad_2.png)
 
 Minden itt fel nem sorolt esetben feltételezhető, hogy a bal felső sarok a viszonyítási pont.
 
@@ -57,6 +57,6 @@ A feladat megoldás során jellemzően valóságos mértékegységekben specifik
 
 ## Sávtartó automatika tesztelése
 
-A sávtartó automatika nem tesztelhető kanyarokban, ehhez ezért egy alább látható kinézetű pályaszakasz készült. Csak 6°-os és egyenes útszakaszból áll. [Az XML elérhető itt](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/resources/lane_keeping_test_world.xml).
+A sávtartó automatika nem tesztelhető kanyarokban, ehhez ezért egy alább látható kinézetű pályaszakasz készült. Csak 6°-os és egyenes útszakaszból áll. [Az XML elérhető itt](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/images/resources/lane_keeping_test_world.xml).
 
 ![](https://github.com/SzFMV2018-Osz/documentation/blob/master/lka.png)
