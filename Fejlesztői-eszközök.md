@@ -1,4 +1,4 @@
-A feladat megoldásához Java nyelvet, annak is a 8-as verzióját kell használni, [Maven](https://maven.apache.org/guides/getting-started/index.html) projekt menedzsment eszközzel. (A kiinduló projekt ezeket már teljesíti). Egyaránt használható az [Oracle JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) vagy az [OpenJDK 8](http://openjdk.java.net/projects/jdk8/) is, operációs rendszer sincs megszabva.
+A feladat megoldásához Java nyelvet, annak is a 8-as verzióját kell használni, [Maven](https://maven.apache.org/guides/getting-started/index.html) projekt menedzsment eszközzel. (A kiinduló projekt ezeket már teljesíti). Egyaránt használható az [Oracle JDK 10](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html) vagy az [OpenJDK 10](http://openjdk.java.net/projects/jdk/10/) is, operációs rendszer sincs megszabva.
 
 Az ajánlott és támogatott fejlesztői környezet az [IntelliJ IDEA](https://www.jetbrains.com/idea/#chooseYourEdition), ez tartalmaz mindent amire szükség lehet a félév során. A Community Edition ingyenes! 
 
