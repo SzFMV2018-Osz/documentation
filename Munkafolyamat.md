@@ -1,6 +1,6 @@
 A munka kultúráról egy remek videót tett közzé a Spotify, [megtekinthető itt](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/).
 
-A munkafolyamat alapvetően egyéni munkára van kitalálva, de legkevésbé sem tilos a [pair programming](https://en.wikipedia.org/wiki/Pair_programming) sem. Társszerzők megjelöléséről [itt lehet olvasni](https://github.com/SzFMV2018-Osz/handout/Git-anyagok#t%C3%A1rsszerz%C5%91k).
+A munkafolyamat alapvetően egyéni munkára van kitalálva, de legkevésbé sem tilos a [pair programming](https://en.wikipedia.org/wiki/Pair_programming) sem. Társszerzők megjelöléséről [itt lehet olvasni](Git-anyagok.md#t%C3%A1rsszerz%C5%91k).
 
 A konkrét feladatmegoldáshoz az alábbi folyamat az elvárt:
 
