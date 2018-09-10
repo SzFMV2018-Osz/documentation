@@ -2,18 +2,18 @@
 
 Az előadások során vetített diák _nem_ kerülnek kiadásra! Ez a wiki szolgál jegyzetként!
 
-0. [A félév ütemezése](wiki/F%C3%A9l%C3%A9v-%C3%BCtemez%C3%A9se)
-1. [Felkészülést segítő anyagok](wiki/Felk%C3%A9sz%C3%BCl%C3%A9st-seg%C3%ADt%C5%91-anyagok)
-2. [Feladatok](wiki/Feladatok)
-3. [Git-anyagok](wiki/Git-anyagok)
-4. [Github](wiki/GitHub)
-5. [Munkafolyamat](wiki/Munkafolyamat)
-6. [Fejlesztői eszközök](wiki/Fejleszt%C5%91i-eszk%C3%B6z%C3%B6k)
-7. [Kódformázás és analízis](wiki/K%C3%B3dform%C3%A1z%C3%A1s)
-8. [Referencia architektúra](wiki/Referencia-architektúra)
-9. [A virtuális világ](wiki/A-virtu%C3%A1lis-vil%C3%A1g)
-10. [Az autó fizikája](wiki/Fizika)
-11. [Bemutató videók az egyes funkciókról](wiki/Vide%C3%B3k)
+0. [A félév ütemezése](F%C3%A9l%C3%A9v-%C3%BCtemez%C3%A9se)
+1. [Felkészülést segítő anyagok](Felk%C3%A9sz%C3%BCl%C3%A9st-seg%C3%ADt%C5%91-anyagok)
+2. [Feladatok](Feladatok)
+3. [Git-anyagok](Git-anyagok)
+4. [Github](GitHub)
+5. [Munkafolyamat](Munkafolyamat)
+6. [Fejlesztői eszközök](Fejleszt%C5%91i-eszk%C3%B6z%C3%B6k)
+7. [Kódformázás és analízis](K%C3%B3dform%C3%A1z%C3%A1s)
+8. [Referencia architektúra](Referencia-architektúra)
+9. [A virtuális világ](A-virtu%C3%A1lis-vil%C3%A1g)
+10. [Az autó fizikája](Fizika)
+11. [Bemutató videók az egyes funkciókról](Vide%C3%B3k)
 
 ## Tárgyleírás
 
