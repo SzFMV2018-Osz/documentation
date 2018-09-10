@@ -15,7 +15,7 @@ A fordulókör sugarának kiszámításához a fönti linkből származó képle
 
 > atan(wheelbase / (turning circle - car width)) = angle
 
-A [`car_2_white.png`](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/resources/car_2_white.png) esetében a szélesség kb. 90px, a tengelytáv kb. 130px-nek tekinthető. Tegyük fel, hogy maximum 60°-ban kormányozható, ekkor a fordulókör sugara:
+A [`car_2_white.png`](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/resources/car_2_white.png) esetében a szélesség kb. 90px, a tengelytáv kb. 130px-nek tekinthető. Tegyük fel, hogy maximum 60°-ban kormányozható, ekkor a fordulókör sugara:
 
 > - atan(130px / (r - 90px)) = 60°
 >
