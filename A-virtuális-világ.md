@@ -57,6 +57,6 @@ A feladat megoldás során jellemzően valóságos mértékegységekben specifik
 
 ## Sávtartó automatika tesztelése
 
-A sávtartó automatika nem tesztelhető kanyarokban, ehhez ezért egy alább látható kinézetű pályaszakasz készült. Csak 6°-os és egyenes útszakaszból áll. [Az XML elérhető itt](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/resources/lane_keeping_test_world.xml).
+A sávtartó automatika nem tesztelhető kanyarokban, ehhez ezért egy alább látható kinézetű pályaszakasz készült. Csak 6°-os és egyenes útszakaszból áll. [Az XML elérhető itt](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/resources/lane_keeping_test_world.xml).
 
 ![](https://github.com/SzFMV2018-Osz/handout/blob/master/lka.png)
