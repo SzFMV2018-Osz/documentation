@@ -9,7 +9,7 @@ A fejlesztői környezetek rendelkeznek Git integrációval, de a parancssoron k
 
 ### Tesztlefedettség
 
-[Tesztlefedettség támogatás a fejlesztői eszközökben](https://github.com/SzFMV2018-Osz/handout/Tesztlefedetts%C3%A9g).
+[Tesztlefedettség támogatás a fejlesztői eszközökben](Tesztlefedetts%C3%A9g.md).
 
 ### Kódformázás
 
@@ -28,11 +28,11 @@ File > Settings > Other Settings > Checkstyle > Configuration File panelen _Add_
 ![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/idea_checkstyle_plugin_settings.png)
 ![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/idea_checkstyle_findings.png)
 
-Bővebben [itt](https://github.com/SzFMV2018-Osz/handout/K%C3%B3dform%C3%A1z%C3%A1s)!
+Bővebben [itt](K%C3%B3dform%C3%A1z%C3%A1s.md)!
 
 ### Logolás
 
-[Logger használata](https://github.com/SzFMV2018-Osz/handout/Logol%C3%A1s)
+[Logger használata](Logol%C3%A1s.md)
 
 ### Maven és a proxy
 
