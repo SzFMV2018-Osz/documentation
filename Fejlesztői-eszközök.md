@@ -1,0 +1,39 @@
+A feladat megoldásához Java nyelvet, annak is a 8-as verzióját kell használni, [Maven](https://maven.apache.org/guides/getting-started/index.html) projekt menedzsment eszközzel. (A kiinduló projekt ezeket már teljesíti). Egyaránt használható az [Oracle JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) vagy az [OpenJDK 8](http://openjdk.java.net/projects/jdk8/) is, operációs rendszer sincs megszabva.
+
+Az ajánlott és támogatott fejlesztői környezet az [IntelliJ IDEA](https://www.jetbrains.com/idea/#chooseYourEdition), ez tartalmaz mindent amire szükség lehet a félév során. A Community Edition ingyenes! 
+
+Nincs elvi akadálya a [NetBeans](https://netbeans.org/) vagy az [Eclipse](https://eclipse.org/downloads/) használatának sem.
+NetBeanshez ajánlott plugin(-ek): [Git toolbar](http://plugins.netbeans.org/plugin/51604/git-toolbar)
+
+A fejlesztői környezetek rendelkeznek Git integrációval, de a parancssoron kívül grafikus kliensek is [léteznek](https://git-scm.com/downloads/guis), többek között a [GitHub saját asztali kliense](https://desktop.github.com/).
+
+### Tesztlefedettség
+
+[Tesztlefedettség támogatás a fejlesztői eszközökben](https://github.com/SzFMV2018-Osz/documentation/Tesztlefedetts%C3%A9g).
+
+### Kódformázás
+
+IDEA beállításai alapértelmezetten elvileg megfelelnek az elvárásoknak, így egy fájl befejezése után (de értelem szerűen commit előtt) célszerű egy formázást megejteni: Code > Reformat Code (CTRL+ALT+L)
+
+* A behúzás beállítása: File > Settings > Editor > Code Style > Java > Tabs and Indents: nem tab, de 4 karakternyi
+* A sorhossz beállítása: File > Settings > Editor > Code Style > Default Options > Right magin (columns) 120 kell, hogy legyen eredetileg
+* Emellett default beállításokban a vessző és kettőspont utáni szóközök, illetve az operátorokat körbevevő szóközök is szerepelnek. Továbbá a kapcsos zárójelek használata is az elvártnak megfelelően van beállítva.
+
+### Checkstyle plugin
+
+[Checkstyle plugin](https://plugins.jetbrains.com/plugin/1065-checkstyle-idea) beállítása IntelliJ IDEA környezetbe. A plugin telepíthető a plugin managerből majd a következő beállításokra van szükség:
+
+File > Settings > Other Settings > Checkstyle > Configuration File panelen _Add_ és a projekt gyökérben megtalálható `checkstyle.xml` fájlt kell neki megadni (és elnevezni valamiként, az alábbi képen `szfmv`). Innentől a fejlesztői környezeten belül elérhető a kódminőség-ellenőrzés *valós időben*, warning-okkal jelzi a találatokat.
+
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/idea_checkstyle_plugin_settings.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/documentation/master/idea_checkstyle_findings.png)
+
+Bővebben [itt](https://github.com/SzFMV2018-Osz/documentation/K%C3%B3dform%C3%A1z%C3%A1s)!
+
+### Logolás
+
+[Logger használata](https://github.com/SzFMV2018-Osz/documentation/Logol%C3%A1s)
+
+### Maven és a proxy
+
+Ha valaki céges gépen dolgozik előírt proxy mellett, érdemes figyelni arra, hogy [a maven-nek külön kell konfigurálni a proxy-t](https://maven.apache.org/guides/mini/guide-proxies.html).
