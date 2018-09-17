@@ -1,8 +1,12 @@
 image: polinux/mkdocs
 
-types:
-  - deploy
+stages:
+    - deploy
 
-test_app:
-  script:
-    - mkdocs build
+deploy:product:
+    stage: deploy
+    only:
+        - master
+    environment: product
+    script:
+        - mkdocs build
