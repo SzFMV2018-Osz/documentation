@@ -16,7 +16,9 @@ deploy:product:
         - git config --global user.email "jartenmaa@gitlab-ci.org"
         - git config --global user.name "jartenmaa"
         - git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/SzFMV2018-Osz/handout $HOME/gh-pages > /dev/null
+        - cd $HOME/gh-pages
         - git rm -rf $HOME/gh-pages/*
+        - cd $CI_PROJECT_DIR
         - mkdocs build --site-dir $HOME/gh-pages
         - cd $HOME/gh-pages
         - git add -f .
