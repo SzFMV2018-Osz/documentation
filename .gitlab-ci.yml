@@ -1,0 +1,8 @@
+image: polinux/mkdocs
+
+types:
+  - deploy
+
+test_app:
+  script:
+    - mkdocs build
