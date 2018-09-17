@@ -1,0 +1,32 @@
+site_name: Jegyzet
+
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - java
+        - yaml
+        - toml
+
+nav:
+    - Kezdőlap: README.md
+    - Feladat:
+        - Félév ütemezése: felev_utemezese.md
+        - Felkészülést segítő anyagok: felkeszülest_segito_anyagok.md
+        - User story-k: feladatok.md
+        - Munkafolyamat: munkafolyamat.md
+    - Eszközök:
+        - Git: git_anyagok.md
+        - GitHub: github.md
+        - Fejlesztői eszközök: fejlesztoi_eszkozok.md
+        - Tesztlefedettség: tesztlefedettseg.md
+        - Kódformázás és analízis: kodformazas.md
+        - Logolás: logolas.md
+        - Single jar létrehozása: forditas.md
+    - Segítség:
+        - Referencia architektúra: referencia_architektura.md
+        - Virtuális világ: virtualis_vilag.md
+        - Az autó fizikája: fizika.md
+        - Bemutató videók az egyes funkciókról: videok.md
+plugins:
+- search
