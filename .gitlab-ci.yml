@@ -15,7 +15,7 @@ deploy:product:
     script:
         - git config --global user.email "jartenmaa@gitlab-ci.org"
         - git config --global user.name "jartenmaa"
-        git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/SzFMV2018-Osz/handout gh-pages > /dev/null
+        - git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/SzFMV2018-Osz/handout gh-pages > /dev/null
         - git rm -rf gh-pages/*
         - mkdocs build --site-dir gh-pages
         - cd gh-pages
