@@ -78,7 +78,7 @@ Ezen anyagok nem képezik részét a ZH-n számon kért ismereteknek, ám úgy g
 ## Irónia
 
 <img src="https://raw.githubusercontent.com/thepracticaldev/orly-full-res/master/blamingtheuser-big.png" alt="blamingtheuser" width="300px"/>
-<img src="https://github.com/thepracticaldev/orly-full-res/blob/master/expertexcusesfornotwritingunittests-big.png" alt="expertexcusesfornotwritingunittests" width="300px"/>
+<img src="https://raw.githubusercontent.com/thepracticaldev/orly-full-res/master/expertexcusesfornotwritingunittests-big.png" alt="expertexcusesfornotwritingunittests" width="300px"/>
 <img src="https://raw.githubusercontent.com/thepracticaldev/orly-full-res/master/nobodyelsecanread-big.png" alt="nobodyelsecanread" width="300px"/>
 <img src="https://raw.githubusercontent.com/thepracticaldev/orly-full-res/master/temporaryworkarounds-big.png" alt="temporaryworkarounds" width="300px"/>
 <img src="https://raw.githubusercontent.com/thepracticaldev/orly-full-res/master/googlingtheerrormessage-big.png" alt="googlingtheerrormessage" width="300px"/>

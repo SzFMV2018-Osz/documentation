@@ -7,7 +7,7 @@ GitHub használatához segítség:
 
 ***
 
-Minden hallgató tagja lesz a [SzFMV2018-Osz](https://github.com/SzFMV2018-Osz) szervezetnek (`Organization`), és egy-egy csapatnak (Team1, ..., Team4). Minden csapat külön issue board-dal rendelkezik (`Projects`), ezen kell vezetni a feladatok (`issue`) megoldását (részletében lásd [Munkafolyamat](Munkafolyamat.md)).
+Minden hallgató tagja lesz a [SzFMV2018-Osz](https://github.com/SzFMV2018-Osz) szervezetnek (`Organization`), és egy-egy csapatnak (Team1, ..., Team4). Minden csapat külön issue board-dal rendelkezik (`Projects`), ezen kell vezetni a feladatok (`issue`) megoldását (részletében lásd [Munkafolyamat](munkafolyamat.md)).
 
 Issue-t nem csak feladatra lehet felvenni, akár kérdésre is, probléma megvitatására is. Ez esetben célszerű megjelölni a `Question` címkével. 2017 őszétől csapat (`team`) szintű fórummal is rendelkezik a GitHub. A szervezeten belül a csapatok hierarchikus struktúrában vannak. A gyökér az [Everyone](https://github.com/orgs/SzFMV2018-Osz/teams/everyone), az összes többi csapat ennek tagja. Az Everyone falára (`discussions`) írt üzeneteket mindenki megkapja. Ezen keresztül fogunk a félév során kurzus szintű közleményeket kiadni, de bárki használhatja kommunikációra. Ugyanilyen üzenőfallal rendelkezik az összes többi csapat is, amelyre szintén bárki írhat. Ha például a Team2-ből szeretné elérni valaki a Team3-at, akkor mindösszesen annyi a dolga, hogy ír a Team3 üzenőfalára. A [Staff](https://github.com/orgs/SzFMV2018-Osz/teams/staff) nevű team-en keresztül az oktatókat lehet elérni ugyanilyen módon.
 

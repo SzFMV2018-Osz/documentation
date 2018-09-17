@@ -1,16 +1,18 @@
+## Ütemezés
+
 Az órák csütörtökönként a BA.F.02-ben vannak, neptun szerint 08:00-10:35 között előadás és 10:45-11:30 között gyakorlat. (Ezek aránya és a szünet az aktuális előadásanyag és az igények szerint módosulhat). A gyakorlat nem labor! 	
 
 |hét    |dátum        |előadás|gyakorlat|
 |------:|:-----------:|:-----:|:-------:|
 | 1.|09. 13.|Bevezető, áttekintés; aSpice alapok|Git, GitHub, IDEA ismertetés (TDD katán keresztül), csapatsorsolás
-| 2.|09. 20.|Agile/Scrum, [első feladat kiadás](Feladatok-1.md)|Sprint Planning, Task Definition Workshop, Team commitment, Scheduling
+| 2.|09. 20.|Agile/Scrum, [első feladat kiadás](feladatok_1.md)|Sprint Planning, Task Definition Workshop, Team commitment, Scheduling
 | 3.|09. 27.|Napi munka, verziókezelők|Branch review, status review, standup (did, will, blocking)
 | 4.|10. 04.|Unit Testing|Status review, standup, TDD kata
-| **5.**|**10. 11.**|**első demo**/retrospektív, [második feladat kiadás](Feladatok-2.md)|Sprint planning, Task Definition Workshop, Team commitment, Scheduling
+| **5.**|**10. 11.**|**első demo**/retrospektív, [második feladat kiadás](feladatok_2.md)|Sprint planning, Task Definition Workshop, Team commitment, Scheduling
 | 6.|10. 18.|Legacy Code, SOLID|Refactoring gyakorlat egy előre előkészített példán
 | 7.|10. 25.|Review|Random code review egy tetszőleges elfogadott pull requestből
 | 8.|11. 01.|_Rektori/dékáni szünet_
-| **9.**|**11. 08.**|**második demo**/retrospektív, [harmadik feladat kiadás](Feladatok-3.md)|Sprint planning, Task Definition Workshop, Team commitment, Scheduling
+| **9.**|**11. 08.**|**második demo**/retrospektív, [harmadik feladat kiadás](feladatok_3.md)|Sprint planning, Task Definition Workshop, Team commitment, Scheduling
 |10.|11. 15.|Continous Integration|Set up a CI script running all implemented unit tests
 |11.|11. 22.|_Rektori/dékáni szünet_
 |12.|11. 29.|Összefoglalás, konzultáció, tárgy feedback|Retro + Pair programming
