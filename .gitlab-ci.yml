@@ -1,4 +1,8 @@
-image: polinux/mkdocs
+image: python:3.7-stretch
+
+before_script:
+  - python -V
+  - pip install -U mkdocs
 
 stages:
     - deploy
