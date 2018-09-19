@@ -2,7 +2,7 @@
 
 A VirtualFunctionBus szolgál a modulok (SystemComponent) kommunikációjára. A komponensek feliratkoznak a buszra és a feliratkozás sorrendjében ciklikusan meghívásra kerülnek. Ebből következik, hogy a feliratkozást az ábrán látható sorrendben kellene megtenni, mivel az adatáramlásnak ilyen irányultsága van. Az első sprint moduljait szemlélteti az alábbi ábra. A későbbi sprintekben további modulok (szenzorok, vezetés támogató rendszerek) is csatlakoznak majd.
 
-![vfb](https://raw.githubusercontent.com/SzFMV2018-Tavasz/documentation/master/vfb.png)
+![vfb](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/vfb.png)
 
 Minden adatközlő modulnak célszerű létrehoznia egy-egy csomag (packet) típust (és vele párhuzamosan egy az olvasást biztosító interfészt), amely tartalmazza azokat az információkat amelyeket továbbítania kell. Például az input csapat a pedál és kormány állásokat. A hajtáslánc a következő, ő kiolvassa a pedál és váltó állást, számol vele, majd visszaírja a _saját_ csomagjába motor fordulatszámát és az autó sebességét, stb. Ezekre legközelebb a kormányzás csapatnak lesz szüksége, ők kiolvassák ugyanúgy mint az input csapat kormányállás értékét, számolnak, majd visszaírják a autó adott iterációra vonatkozó elmozdulását.
 A műszerfal csak megjelenít, kiolvas mindent amire szüksége van. A pálya megjelenítés alapvetően független lenne ettől az egésztől, de az autót is meg kell jeleníteni így a legkézenfekvőbb ha az autó aktuális koordinátáit ugyanígy a kormányzás csomagjából olvassák ki.
