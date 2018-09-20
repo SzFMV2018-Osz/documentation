@@ -28,9 +28,9 @@ A [`car_2_white.png`](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/ma
 
 ## Szenzorok (2. sprint)
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/camera.png)
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/radar.png)
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/ultrasonic.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/camera.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/radar.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/ultrasonic.png)
 
 [Driver Assistance Systems, an introduction to Adaptive Cruise Control](http://www.eetimes.com/document.asp?doc_id=1272754)
 

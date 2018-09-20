@@ -12,6 +12,6 @@ Az IDEA-n kívül más IDE-khez is megtalálhatóak hasonló funkciók: [NetBean
 
 ### Képernyőképek
 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/idea_run_debug_config_menu.png) 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/idea_run_debug_config_window.png) 
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/images/idea_coverage_window.png) 
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/idea_run_debug_config_menu.png) 
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/idea_run_debug_config_window.png) 
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/idea_coverage_window.png) 
