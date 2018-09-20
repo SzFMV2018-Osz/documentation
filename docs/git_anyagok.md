@@ -30,7 +30,7 @@
 
 ## Commit üzenetekről
 
-![xkcd 1296](https://imgs.xkcd.com/comics/git_commit.png)
+![xkcd 1296](https://www.explainxkcd.com/wiki/images/d/de/git_commit.png)
 
 - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
     - ez egy hosszabb, példákkal illusztrált írás (angol  nyelven) a jó commit üzenetekről, 
@@ -78,4 +78,4 @@ A GH minden felhasználónak biztosít egy "proxy ímélcímet", hogy titokban t
     - Mit javít, a vonatkozó issue-val pl. `#42`
     - Milyen új funkcionalitást ad a kódhoz, a vonatkozó issue-val pl. `#42`
     - Milyen viselkedést változtat/tör meg, a vonatkozó issue-val pl. `#42`
-        - ![Workflow](https://imgs.xkcd.com/comics/workflow.png)
+        - ![Workflow](https://www.explainxkcd.com/wiki/images/b/b5/workflow.png)
