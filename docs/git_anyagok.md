@@ -1,6 +1,6 @@
 ## Interaktív online oktató anyagok
 
-1. [Webes interaktív oktatóanyag]h(ttps://www.katacoda.com/courses/git)
+1. [Webes interaktív oktatóanyag](https://www.katacoda.com/courses/git)
     - GitHub fiókkal -többek közt- a git kurzus ingyenesen végigvihető
 2. [Learn Git Branching](http://learngitbranching.js.org/)
     - ez kifejezetten a branchelésre megy rá, szóval nem véletlenül a második!
