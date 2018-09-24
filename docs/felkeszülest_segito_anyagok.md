@@ -56,15 +56,16 @@ Ezen anyagok nem képezik részét a ZH-n számon kért ismereteknek, ám úgy g
 
 - Behavior Driven Development
     - Ez a TDD kiterjesztése, lényege, hogy a megrendelővel (és nem is annyira egy menedzserrel, hanem sokkal inkább egy domain szakértőjével) való egyeztetés folyamán, egy strukturált, ám természetes nyelvi szöveggel leírt „szabályok” formájában kerül leírásra az elvárt működés. Ezek alapján aztán a fejlesztő _több tesztet is ír_ (szemben a TDD-vel, ahogy egyszerre szigorúan egyet), majd a tesztek összességének megfelelő kódot ír
-    - https://www.toptal.com/freelance/your-boss-won-t-appreciate-tdd-try-bdd
-    - https://en.wikipedia.org/wiki/Behavior-driven_development
-    - https://www.agilealliance.org/glossary/bdd/
+    - [TDD vs. BDD](https://www.toptal.com/freelance/your-boss-won-t-appreciate-tdd-try-bdd)
+    - [Wikipédia BDD cikke](https://en.wikipedia.org/wiki/Behavior-driven_development)
+    - [Agile alliance összefoglalója a BDD-ről](https://www.agilealliance.org/glossary/bdd/)
 - [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
     - Különösen ajánlom elolvasni, kb. egy oldal
 - [Acceptance Test Driven Development (ATDD)](http://www.methodsandtools.com/archive/archive.php?id=72)
 - [types vs. tests](https://www.destroyallsoftware.com/talks/ideology)
     - video ~21 min
-- https://dmerej.info/blog/post/trying-mypy/
+- [I don't need types](https://dmerej.info/blog/post/trying-mypy/)
+    - blogposzt a típusosságról
 
 ## Ajánlott olvasmányok 
 
