@@ -8,6 +8,8 @@ A számítógépes grafikában megszokott módon, a bal felső sarok jelenti az 
 
 ![](http://www.e-cartouche.ch/content_reg/cartouche/graphics/en/image/coordinates.jpg)
 
+Villódzásmentes rajzolás: https://docs.oracle.com/javase/tutorial/extra/fullscreen/doublebuf.html
+
 Egy-egy objektum leírása a következőképpen néz ki:
 
 ``` xml
