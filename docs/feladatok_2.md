@@ -24,12 +24,12 @@
 
 ### DoD
 
-- Mozgó objektumok érintkezésének pozíció és dimenzióhelyes detekciója és kommunikációja megvalósult
-- Mozgó és statikus objektumok érintkezésének pozíció és dimenzóhelyes detekciója és kommunikációja megvalósult
-- Az objektumok mozgásállapota az energiamegmaradás törvényeinek megfelelően változik (gyorsul, lassul, irányt vált, megáll)
-- Az objektumok sérülnek, megsemmisülnek, amennyiben túl nagy energiával ütköznek
-- A játék véget ér, ha gyalogost gázolunk
-- A játék véget ér, ha a játékos ütközés következtében mozgásképtelenné válik (sebessége 0-ra csökken, vagy megsemmisül)
+- [ ] Mozgó objektumok érintkezésének pozíció és dimenzióhelyes detekciója és kommunikációja megvalósult
+- [ ] Mozgó és statikus objektumok érintkezésének pozíció és dimenzóhelyes detekciója és kommunikációja megvalósult
+- [ ] Az objektumok mozgásállapota az energiamegmaradás törvényeinek megfelelően változik (gyorsul, lassul, irányt vált, megáll)
+- [ ] Az objektumok sérülnek, megsemmisülnek, amennyiben túl nagy energiával ütköznek
+- [ ] A játék véget ér, ha gyalogost gázolunk
+- [ ] A játék véget ér, ha a játékos ütközés következtében mozgásképtelenné válik (sebessége 0-ra csökken, vagy megsemmisül)
 
 ## 3. Szenzor interface implementáció & ultrahang szenzor
 
@@ -39,14 +39,14 @@
 
 ### DoD
 
-- Egységes interface kidolgozása a világmodell objektum listájának szűrésére
-- A kamera, radar, ultrahang szenzorok elérik a látható objektumokat
-- A látható objektumok összes paramétere elérhető
-- A szenzorok látómezeje és a látott objektumok vizualizálhatók gombnyomással
-- Az ultrahang szenzor(ok) látómezejében lévő objektumok lekérése a definiált interface használatával
-- Az ultrahang szenzor(ok) látomezejében lévő legközelebbi objektum(ok) elérhető(k) a kimeneten
-- Az ultrahang által relevánsnak tartott objektumok kiemelhetők egy debug kapcsolóval (billentyű vagy debug módba váltás)
-- Az ultrahang látómezeje frissül az autó pozícióváltozásával
+- [ ] Egységes interface kidolgozása a világmodell objektum listájának szűrésére
+- [ ] A kamera, radar, ultrahang szenzorok elérik a látható objektumokat
+- [ ] A látható objektumok összes paramétere elérhető
+- [ ] A szenzorok látómezeje és a látott objektumok vizualizálhatók gombnyomással
+- [ ] Az ultrahang szenzor(ok) látómezejében lévő objektumok lekérése a definiált interface használatával
+- [ ] Az ultrahang szenzor(ok) látomezejében lévő legközelebbi objektum(ok) elérhető(k) a kimeneten
+- [ ] Az ultrahang által relevánsnak tartott objektumok kiemelhetők egy debug kapcsolóval (billentyű vagy debug módba váltás)
+- [ ] Az ultrahang látómezeje frissül az autó pozícióváltozásával
        
 
 ## 4. Kamera, Radar szenzor implementáció
@@ -57,10 +57,10 @@
 
 ### DoD
 
-- A radar látószögének és látótávolságának megfelelő objektumlista lekérése a szenzor interface használatával
-- A radar szenzor a 4 legközelebbi objektumot adja vissza (bal, jobb sáv legközelebbi, saját sáv legközelebbi kettő)
-- A kamera látószögének és látótávolságának megfelelő objektumlista lekérése a szenzor interface használatával
-- A kamera szenzor a látható sávok összes adatát visszaadja(hány sáv, melyikben vagyunk, azon belül milyen távolságra a szélektől)
-- A kamera szenzor a látott táblák közül a legközelebbi összes adatát visszaadja (milyen tábla, milyen messzire van)
-- A szenzorok által relevánsnak tartott objektumok kiemelhetők egy debug kapcsolóval (billentyű vagy debug módba váltás)
-- A szenzorok által látott terület dinamikus frissítése
+- [ ] A radar látószögének és látótávolságának megfelelő objektumlista lekérése a szenzor interface használatával
+- [ ] A radar szenzor a 4 legközelebbi objektumot adja vissza (bal, jobb sáv legközelebbi, saját sáv legközelebbi kettő)
+- [ ] A kamera látószögének és látótávolságának megfelelő objektumlista lekérése a szenzor interface használatával
+- [ ] A kamera szenzor a látható sávok összes adatát visszaadja(hány sáv, melyikben vagyunk, azon belül milyen távolságra a szélektől)
+- [ ] A kamera szenzor a látott táblák közül a legközelebbi összes adatát visszaadja (milyen tábla, milyen messzire van)
+- [ ] A szenzorok által relevánsnak tartott objektumok kiemelhetők egy debug kapcsolóval (billentyű vagy debug módba váltás)
+- [ ] A szenzorok által látott terület dinamikus frissítése
