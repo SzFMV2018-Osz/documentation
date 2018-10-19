@@ -1,4 +1,4 @@
-![Code quality](https://imgs.xkcd.com/comics/code_quality.png)
+![Code quality](https://www.explainxkcd.com/wiki/images/c/c6/code_quality.png)
 
 A kód tisztasága, olvashatósága nem csak szemantikai, de szintaktikai értelemben is fontos. Minden nyelvnek megvannak a maga „nyelvtani”, szintaktikai előírásai, amit a fordító be is tartat. Azonban ezen túl megvannak azok az (íratlan) szabályai is, amiket már nem a fordító feladata betartatni. (A Go fordítónál ez kezd egybemosódni, pl. nem fordul a kód ha van deklarált, de fel nem használt változód, a [gofmt, Go format](https://golang.org/cmd/gofmt/) pedig kikényszeríti a kódformázási szabályokat.)
 

@@ -1,7 +1,8 @@
 ## Interaktív online oktató anyagok
 
-1. https://try.github.io/levels/1/challenges/1
-2. http://learngitbranching.js.org/
+1. [Webes interaktív oktatóanyag](https://www.katacoda.com/courses/git)
+    - GitHub fiókkal -többek közt- a git kurzus ingyenesen végigvihető
+2. [Learn Git Branching](http://learngitbranching.js.org/)
     - ez kifejezetten a branchelésre megy rá, szóval nem véletlenül a második!
 
 ## Online anyagok
@@ -9,7 +10,8 @@
 - [Version Control Tutorial](http://smutch.github.io/VersionControlTutorial/)
     - kezdőknek, az alapoktól
 - [git - the simple guide](http://rogerdudler.github.io/git-guide/)
-    - újrakezdőknek, ismétlés szintű
+    - inkább újrakezdőknek, ismétlés szintű
+- [Altassian Git tutoriálja](https://www.atlassian.com/git/tutorials)
 - [Git Notes for Professionals book](http://goalkicker.com/GitBook/)
     - haladókank, nem tanítja a git használatát, de probléma: megoldás alapon összefoglalja a használatának majd minden aspektusát (a Stackoverflow válaszok alapján) 
 - [Git könyv](https://git-scm.com/book/en/v2/)
@@ -24,9 +26,9 @@
 
 ### puskák PDF formátumban
 
-- https://education.github.com/git-cheat-sheet-education.pdf
-- https://about.gitlab.com/images/press/git-cheat-sheet.pdf
-- https://www.atlassian.com/dms/wac/images/landing/git/atlassian_git_cheatsheet.pdf
+- [GitHubtól](https://education.github.com/git-cheat-sheet-education.pdf)
+- [GitLabtól](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+- [Altassiantól (BitBucket)](https://www.atlassian.com/dms/wac/images/landing/git/atlassian_git_cheatsheet.pdf)
 
 ## Commit üzenetekről
 

@@ -2,11 +2,13 @@ Az autónak egy virtuális tesztpályán kell végigmennie, amelyhez modellezni 
 
 ![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/test_world.png)
 
-A fenti világ elemekből épül föl, amelyek között vannak egyenes útszakaszok, kanyarok (pl. 45° és 90°), T elágazás, gyalogos átkelő, közúti táblák, parkolók és fák. Mindezt [egy XML írja le](https://github.com/SzFMV2018-Osz/handout/blob/master/resources/test_world.xml).
+A fenti világ elemekből épül föl, amelyek között vannak egyenes útszakaszok, kanyarok (pl. 45° és 90°), T elágazás, gyalogos átkelő, közúti táblák, parkolók és fák. Mindezt [egy XML írja le](https://github.com/SzFMV2018-Osz/handout/blob/master/docs/resources/test_world.xml).
 
 A számítógépes grafikában megszokott módon, a bal felső sarok jelenti az origót (0,0) koordinátát. Az x tengtely tehát jobbra haladva, az y tengely lefelé haladva növekszik. Így kell értelmezni az XML-t és ekképpen működik a megjelenítés is, hiszen a form bal felső sarkánál van a (0, 0) pont. Az alábbi kép [forrása](http://www.e-cartouche.ch/content_reg/cartouche/graphics/en/html/Screen_learningObject3.html).
 
 ![](http://www.e-cartouche.ch/content_reg/cartouche/graphics/en/image/coordinates.jpg)
+
+Villódzásmentes rajzolás: https://docs.oracle.com/javase/tutorial/extra/fullscreen/doublebuf.html
 
 Egy-egy objektum leírása a következőképpen néz ki:
 
@@ -47,7 +49,7 @@ Minden itt fel nem sorolt esetben feltételezhető, hogy a bal felső sarok a vi
 
 A mozgatásra szoruló elemek (vezérelt autó és NPC autók) nem képezik részét a világ leírásának, viszonyítási pontjuk nem definiált. A rendelkezésre bocsátott autó képek méretarányosak az összes többi objektummal. referenciapontnak célszerű a bal felső sarkot választani.
 
-A világhoz szükséges elemek [megtalálhatóak itt](https://github.com/SzFMV2018-Osz/handout/tree/master/resources). Ezeket célszerű a `src/main/resources` mappába elhelyezni, és a [kiadott példa](https://github.com/SzFMV2018-Osz/AutomatedCar/blob/6784a1620dd1fa353cff6b339fed47e21a11a0ac/src/main/java/hu/oe/nik/szfmv/visualisation/CourseDisplay.java#L36) szerint hivatkozni.
+A világhoz szükséges elemek [megtalálhatóak itt](https://github.com/SzFMV2018-Osz/handout/tree/master/docs/resources). Ezeket célszerű a `src/main/resources` mappába elhelyezni, és a [kiadott példa](https://github.com/SzFMV2018-Osz/AutomatedCar-A/blob/3d69a8ef8d51a2409ca3aaca12ca5c0871053ee7/src/main/java/hu/oe/nik/szfmv/visualization/CourseDisplay.java#L36) szerint hivatkozni.
 
 ## Méretarány
 
@@ -57,6 +59,6 @@ A feladat megoldás során jellemzően valóságos mértékegységekben specifik
 
 ## Sávtartó automatika tesztelése
 
-A sávtartó automatika nem tesztelhető kanyarokban, ehhez ezért egy alább látható kinézetű pályaszakasz készült. Csak 6°-os és egyenes útszakaszból áll. [Az XML elérhető itt](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/resources/lane_keeping_test_world.xml).
+A sávtartó automatika nem tesztelhető kanyarokban, ehhez ezért egy alább látható kinézetű pályaszakasz készült. Csak 6°-os és egyenes útszakaszból áll. [Az XML elérhető itt](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/resources/lane_keeping_test_world.xml).
 
-![](https://github.com/SzFMV2018-Osz/handout/blob/master/lka.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/lka.png)
