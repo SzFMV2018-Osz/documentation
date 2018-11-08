@@ -110,15 +110,5 @@ Automata vészfékező rendszer megvalósítása, maximum 9 m/s^2 lassulással
 
 ![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/radar_aeb.png)
 
-## Táblafelismerő rendszer
-
-
-* Challenge: Együttműködés a Team6-al; egyrészt mert övéké volt a műszerfal, másrészt meg övéké a kamera
-* Assignee: **Team 5**
-
-### Definition of Done
-
-#### táblafelismerő
-
 
 
