@@ -1,8 +1,7 @@
 ## Parkolóhely megtalálása
 
 * Input: Ultrahang szenzor
-* Output: megtalált  parkolóhely az autóhoz viszonyítva
-* Assignee: **Team4**
+* Output: parkolási manőver végrehajtása
 
 ### DoD
 
@@ -10,28 +9,6 @@
 - [ ] Autó méretének megfelelő hely beazonosítása
 - [ ] Megtalált parkoló jelzése, a hely információinak buszra írása (packet-tel)
 - [ ] A parkolóhely megtalálásához szükséges NPC-k példányosítása
-
-### Megjegyzések
-
-* Még a sofőr vezet a parkolóig, megáll az autósor mellett aktiváltja a parkolóhely keresést (kell valami input a billentyűzetről) ekkor továbbra is "emberi" irányítással el kell haladni a parkolóhelyek mellett és ki kell számolni a szabad hely méretét. Amikor megvan az alkalmas hely, akkor visszajelzést kell adni és a hely dimenziót és az autóhoz viszonyított helyzetét le kell tudni írni.
-* Az autónak elérhető a referenciapontja (továbbá ismert a szélessége és a hosszúsága), a autóhoz (referenciaponthoz) viszonyítva legyen leírva a parkolóhely.
-* Ami a parkolóhely hosszát illeti, nem a felfestett parkolóhely hosszát kell lemérni (azt nem is lehet az ultrahang szenzorral), hanem a szabad parkolóhelyet közrefogó két parkoló autó által szabadon hagyott helyet (amely akár két felfestésnyi is lehet).
-* A szabad hely szélessége ha egyéb akadályt - pózna (`bollard.png`) vagy fa - nem tesztek külön emiatt, támpontként a pályára, akkor a a szenzor látótávolsága, azaz 3 méter.
-* a szabad helyhez egy referenciapontot kell (érdemes) társítani, pl. a helyet leíró téglalap bal felső pontja (ábrán így van) és az autó középpontjával és ezzel a ponttal (ebből számolható a távolság) valamint a hely dimenzióival kielégítően jellemezve van a a parkoló hely.
-    * Ezt pl. egy ParkingPlace osztály elemeként ki kell tenni a buszra packet-tel. Ennek a leíró osztálynak a felépítéséről tájékoztatni kell a parkolásért felelős csapatot..
-
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/find_parking_place.png)
-
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/parking_place_found.png)
-
-## Automata parkolás
-
-* Input: parkolóhely
-* Output: parkolási manőver végrehajtása
-* Assignee: **Team6**
-
-### DoD
-
 - [ ] A parkolás megkezdése külön inputhoz kötött (van erre vonatkozó gomb a műszerfalon, inputtól meg billentyűesemény)
 - [ ] A kormány és gáz/fék vezérlésével beparkolás a talált helyre
 - [ ] Párhuzamos parkolás sikeres (ütközés nélkül megtörténik)
@@ -39,30 +16,44 @@
 
 ### Megjegyzések
 
-* A parkolóhelyet pl. egy ParkingPlace leíró objektumként kapjátok meg a buszon keresztül.
-    * Ez tartalmazza az autó referenciapontját (középpont) és a pakolóhelyet leíró négyzet referenciapontját (várhatóan bal felső pontja - egyeztetés a **Team4**-el) ezekből számítható a távolságuk.
-    * Szintén tartalmazza a szabad hely dimenzióit
+* Még a sofőr vezet a parkolóig, megáll az autósor mellett aktiváltja a parkolóhely keresést (kell valami input a billentyűzetről) ekkor továbbra is "emberi" irányítással el kell haladni a parkolóhelyek mellett és ki kell számolni a szabad hely méretét. Amikor megvan az alkalmas hely, akkor visszajelzést kell adni és a hely dimenziót és az autóhoz viszonyított helyzetét le kell tudni írni.
+* Az autónak elérhető a referenciapontja (továbbá ismert a szélessége és a hosszúsága), a autóhoz (referenciaponthoz) viszonyítva legyen leírva a parkolóhely.
+* Ami a parkolóhely hosszát illeti, nem a felfestett parkolóhely hosszát kell lemérni (azt nem is lehet az ultrahang szenzorral), hanem a szabad parkolóhelyet közrefogó két parkoló autó által szabadon hagyott helyet (amely akár két felfestésnyi is lehet).
+* A szabad hely szélessége ha egyéb akadályt - pózna (`bollard.png`) vagy fa - nem tesztek külön emiatt, támpontként a pályára, akkor a a szenzor látótávolsága, azaz 3 méter.
+* a szabad helyhez egy referenciapontot kell (érdemes) társítani, pl. a helyet leíró téglalap bal felső pontja (ábrán így van) és az autó középpontjával és ezzel a ponttal (ebből számolható a távolság) valamint a hely dimenzióival kielégítően jellemezve van a parkoló hely.
+* Ez tartalmazza az autó referenciapontját (középpont) és a pakolóhelyet leíró négyzet referenciapontját ezekből számítható a távolságuk.
+* Szintén tartalmazza a szabad hely dimenzióit
 * (Ha más nem próbálgatásos módszerrel) ki kell tapasztalni, hogy a szükséges "párhuzamos parkolás" manőver hogyan vihető végbe a vezérelt autó irányítószerveivel, majd ezt le kell automatizálni.
-* Az NPC autók példányosítása legalább annyira ide tartozik mint a **Team4**-hez, bár a manőver elvben legalábbis azok nélkül is leprogramozható
-    * Ugyanakkor az NPC autók hiánya nem számít _vis major_-nak.
+* Az NPC autók példányosítása ide tartozik.
 * A programozott vezérlést a buszon keresztül kapott szabad helyet leíró adatok függvényében kell elindítani
-    * ha szükséges az autóval tolatni is kell
-
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/parking_place_found.png)
+* ha szükséges az autóval tolatni is kell
 
 ![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/parking.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/find_parking_place.png)
+![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/parking_place_found.png)
 
-## Sávtartó automatika
+## Sávtartó automatika & táblafelismerés
 
 * Input: Kamera szenzor
-* Assignee: **Team2**
+* Output: Sávot beavatkozás nélkül követő ego car
+
+Táblafelismerő:
+A funkció lényegét bemutatja [ez a videó](https://www.youtube.com/watch?v=RFuUvqxbuSc). A kamera szenzorra támaszkodva a visszakapott objektumokból ki kell szűrni a táblákat és az aktuális érvényűt megjeleníteni a műszarfalon.
+
+* Input: kamera szenzor outputja (buszról olvasva), hátsó két ultrahang szenzor
+* Output: Aktuális tábla (buszra írva)
 
 - [ ] 45 foknál enyhébb kanyarodású úton a kocsi a sáv szemmel látható közepén marad
 - [ ] Ha el kell engednie a kontrollt (az automatika számára kezelhetetlen forgalmi szituáció következik, pl. éles kanyar, kereszteződés), vizuális figyelmeztetést ad
 - [ ] Ha újra elérhető a funkció (pl. elhagytuk a kanyart) vizuális indikáció (a műszerfalon)
 - [ ] Be- és kikapcsolható (ennek kezelése már megoldott)
+- [ ] Az utolsó látott releváns tábla elérhető a buszon
+
 
 ### Megjegyzések
+
+* a tábla megjelenítésére kész interfész van a műszerfaltól, csak meg kell hívni, ha a szűrés megtörtént
+    * packetet kell létrehozni (vagy létezőt használni), abból olvas
 
 * Annak eldöntése, hogy az autó letérni készül-e az útról úgy oldható meg, hogy az autó síkját virtuálisan meghosszabbítva figyeljük, hogy ez a "vonal" metszi-e a sávhatároló görbét. Ha igen, akkor jobbról, vagy balról.
     * Tehát nem azt kell figyelni, hogy az autó metszi-e a sávhatárolót, hanem, hogy metszeni fogja-e.
@@ -74,8 +65,6 @@
 ## Adaptív tempomat
 
 Adaptív tempomat funkció megvalósítása - a kiválasztott célobjektum (autó előtt haladó NPC) sebességéhez igazítja a gyorsabb saját sebességet, vagy tartja a sofőr által kiválasztott sebességhatárt, ha nincs cél. 
-
-* Assignee: **Team1**
 
 - [ ] Bekapcsolható, reagál az állapotváltás, alapértelmezetten az aktuális sebesség, de min célsebesség 30 km/h
 - [ ] ha nincs saját sávban autó, a játékos autó tartja a kiválasztott célsebességet
@@ -92,7 +81,6 @@ Adaptív tempomat funkció megvalósítása - a kiválasztott célobjektum (aut�
 * Ezért célszerű a felhasználó/vezető által megadott sebességhez igazodással kezdeni, ennek akkor is működnie kell, ha nincs NPC a pályán
 * A modul olyan triggerekkel vezérelheti az autót mint amilyenek a billentyűlenyomás kezelőtől jönnek (gáz, fék)
     * de figyelni kell, hogy a tényleges billentyűtől érkező inputok felülírják a funkciót
-    * **team5** számára feladatot ad!!!
 
 ![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/acc.png)
 
@@ -102,7 +90,6 @@ Adaptív tempomat funkció megvalósítása - a kiválasztott célobjektum (aut�
 Automata vészfékező rendszer megvalósítása, maximum 9 m/s^2 lassulással
 
 * Input: radar szenzor
-* Assignee: **Team3**
 
 - [ ] Elkerülhető ütközés esetén vizuális figyelmeztetés a sofőrnek
 - [ ] ha a sofőr nem avatkozik közbe, automatikus fékezés (az utolsó pillanatban, ahol az ütközés még elkerülhető)
@@ -120,16 +107,12 @@ Automata vészfékező rendszer megvalósítása, maximum 9 m/s^2 lassulással
     * a gyorsítási/fékezési input nem gyorsulásban van, hanem pedállás mértékben. Ebből elvileg egyszerűen nem nyerhető ki a gyorsulás, viszont a gyorsulás az egy másodperc alatti sebesség változás, ami viszont kiszámolható t(n) - t(n-1) módon
 * A modul olyan triggerekkel vezérelheti az autót mint amilyenek a billentyűlenyomás kezelőtől jönnek (gáz, fék)
     * de figyelni kell, hogy a tényleges billentyűtől érkező inputok felülírják a funkciót
-    * **team5** számára feladatot ad!!!
 
 ![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/radar_aeb.png)
 
-## Táblafelismerő rendszer + tolatóradar
+## Táblafelismerő rendszer
 
-A funkció lényegét bemutatja [ez a videó](https://www.youtube.com/watch?v=RFuUvqxbuSc). A kamera szenzorra támaszkodva a visszakapott objektumokból ki kell szűrni a táblákat és az aktuális érvényűt megjeleníteni a műszarfalon.
 
-* Input: kamera szenzor outputja (buszról olvasva), hátsó két ultrahang szenzor
-* Output: Aktuális tábla (buszra írva)
 * Challenge: Együttműködés a Team6-al; egyrészt mert övéké volt a műszerfal, másrészt meg övéké a kamera
 * Assignee: **Team 5**
 
@@ -137,23 +120,5 @@ A funkció lényegét bemutatja [ez a videó](https://www.youtube.com/watch?v=RF
 
 #### táblafelismerő
 
-- [ ] Az utolsó látott releváns tábla elérhető a buszon
 
-#### tolatóradar
 
-- [ ] Csak hátramenetben aktív
-- [ ] figyelmeztetés megjelenítése a műszerfalon
-- [ ] távolság megjelenítése a műszerfalon
-- [ ] a buszon keresztül történik a modulok (tolatóradar és műszerfal) kommunikáció
-
-### Megjegyzés
-
-* a tábla megjelenítésére kész interfész van a műszerfaltól (**team4**), csak meg kell hívni, ha a szűrés megtörtént
-    * packetet kell létrehozni (vagy létezőt használni), abból olvas
-* A kijelzés 3 fokozatban történik
-    * nincs akadály
-    * közel van akadály (0.8m-en belül)
-    * nagyon közel van akadály (0.4m-en belül)
-* Valami ehhez hasonlóként lehet elképzelni: https://www.youtube.com/watch?v=qZkCoDChS4A
-
-![](https://raw.githubusercontent.com/SzFMV2018-Osz/handout/master/docs/images/reverse_radar_system.png)
