@@ -39,6 +39,7 @@ Alább néhány, az interneten az ismert kulcsszavak alapján könnyen (legaláb
         - prezentáció
 - [Code smells](https://blog.codinghorror.com/code-smells/)
 - [Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
+- [Continuous Deployment stratégiák](https://thenewstack.io/deployment-strategies/)
 
 ## Javasolt (fel)készülési módszer
 
